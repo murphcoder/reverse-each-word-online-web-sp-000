@@ -4,4 +4,5 @@ def reverse_each_word(phrase)
   words.each do |word|
     backwords << word.reverse
   end
-  
+  backwords.join
+end
